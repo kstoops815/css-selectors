@@ -11,13 +11,16 @@ nav ul li {
 	margin-left: 8%;
 }
 
-.disabled a:link {
-	color: purple;
-}
 
 /*TEXT IN CLASS DISABLED COLORED GRAY(4)*/
 .disabled {
 	color: gray;
+}
+
+/*TEXT IN CLASS DISABLED WITHIN ANCHOR
+TAG SHOULD BE COLORED PURPLE(4)*/
+a.disabled {
+	color: purple;
 }
 
 /*TEXT IN ACTIVE CLASS COLORED YELLOW(5)*/
