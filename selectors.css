@@ -1,0 +1,70 @@
+/*HEADER ELEM 1PX BORDER (1)*/
+header {
+	border: 1px solid tomato;
+}
+
+/*CONVERT NAV ELEM INTO LINKS, 
+NOT BULLETS, SPACE HORIZONTALLY (2)*/
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	margin-left: 8%;
+}
+
+.disabled a:link {
+	color: purple;
+}
+
+/*TEXT IN CLASS DISABLED COLORED GRAY(4)*/
+.disabled {
+	color: gray;
+}
+
+/*TEXT IN ACTIVE CLASS COLORED YELLOW(5)*/
+.active {
+	color: yellow;
+}
+
+/*MAKE "I'M RED" COLOR RED(8)*/
+.parent div div:first-of-type {
+	color: red;
+}
+
+/*MAKE "I'M BLUE" COLOR BLUE(9)*/
+.parent div div:nth-child(3) {
+	color: blue;
+}
+
+/*SIBLING H4 RED ELEMENT, 
+BACKGROUND COLOR RED(10)*/
+.parent div h4:first-of-type {
+	background: red;
+}
+
+/*SIBLING H4 BLUE ELEMENT,
+BACKGROUND COLOR BLUE(11)*/
+.parent div h4:last-of-type {
+	background-color: blue;
+}
+
+/*H4 THAT IS DIRECT CHILD OF 
+GRANDPARENT SHOULD HAVE A 1PX
+BORDER WITH ROUNDED CORNERS(12)*/
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+/*CLASS PROMO: BOLD 
+TEXT COLORED GOLD(13)*/
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+/*W/O ADDING ATTRIBUTES, WRITE 
+CSS SELECTOR TO MAKE TEXT INPUT 
+FIELD 25PX HEIGHT(14)*/
+footer input[type=text] {
+	height: 25px;
+}
